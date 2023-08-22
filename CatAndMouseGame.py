@@ -26,3 +26,4 @@ def getAssetBundle(assetbundle):
     data_unpacked = msgpack.unpackb(gzip_data)
 
     return data_unpacked
+
